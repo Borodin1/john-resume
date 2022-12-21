@@ -1,38 +1,488 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@400;800&display=swap");
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header a {
+  text-decoration: none;
+  margin-right: 30px;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.active-link {
+  color: #ff6464;
+  cursor: default;
+}
+
+.homepage-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+.homepage-title h1 {
+  width: 430px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+
+  color: #21243d;
+}
+
+.homepage-title p {
+  width: 460px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+}
+
+.homepage-button {
+  text-decoration: none;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  background: #ff6464;
+  border-radius: 2px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.nfp-title h2 {
   text-align: center;
+  margin-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.posts-content {
+  background: #edf7fa;
+  margin-top: 88px;
+  height: 396px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.post {
+  background-color: #ffffff;
+  width: 418px;
+  padding-left: 20px;
+  margin-left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.post a {
+  text-decoration: none;
+}
+
+.post h2 {
+  margin-bottom: 17px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+}
+.post p {
+  margin-top: 21px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+  width: 368px;
+}
+
+.post span {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243d;
+}
+.posts-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.posts-text h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #21243d;
+}
+
+.posts-text a {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  text-decoration: none;
+  color: #00a8cc;
+}
+
+.posts-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blogs {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.blog {
+  border-bottom-style: inset;
+  margin-top: 32px;
+}
+
+.blog-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 530px;
+}
+
+.blog-title h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.blogs a {
+  text-decoration: none;
+}
+
+.blogs h3 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+}
+
+.blogs span.blogs-data {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243d;
+}
+
+.blogs span.blogs-type {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.blogs p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 619px;
+  color: #21243d;
+}
+
+.single-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.single-post h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  color: #21243d;
+}
+
+.single-subtext {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.single-data {
+  background: #ff7c7c;
+  border-radius: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+
+.single-type {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin-left: 25px;
+  color: #21243d;
+}
+
+.single-post p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.button-back button {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 31px;
+  width: 858px;
 }
 
-.App-link {
-  color: #61dafb;
+.work-content {
+  margin-left: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.work-content h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #21243d;
+  margin: 0;
+}
+
+.work-homepage {
+  margin-left: 440px;
+}
+
+.work-homepage h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.work-title {
+  display: flex;
+  margin-right: 700px;
+  justify-content: center;
+}
+
+.work-title h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.work-data {
+  background-color: #142850;
+  border-radius: 16px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.work-subtext {
+  margin-top: 17px;
+}
+
+.work-type {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin-left: 36px;
+  color: #8695a4;
+}
+
+.work-content a {
+  text-decoration: none;
+}
+
+.work-content p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+  margin: 0;
+  margin-top: 17px;
+  width: 594px;
+  margin-bottom: 25px;
+}
+
+.single-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.swork-main h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  color: #21243d;
+}
+
+.swork-data {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ffffff;
+  background: #ff7c7c;
+  border-radius: 16px;
+}
+
+.swork-type {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 30px;
+  line-height: 29px;
+  color: #21243d;
+}
+
+.swork-main p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  width: 681px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.swork-material {
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+}
+
+.swork-material h3 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+  color: #21243d;
+}
+
+.swork-material h4 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+  color: #21243d;
+}
+
+.swork-material p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 677px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 78px;
+}
+
+.footer-links a {
+  margin-left: 35px;
+}
+
+.footer-text {
+  margin-top: 25px;
+}
+
+.footer-text p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #21243d;
 }
