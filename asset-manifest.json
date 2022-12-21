@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/john-resume/static/css/main.b19c7581.css",
+    "main.js": "/john-resume/static/js/main.9ba211be.js",
+    "static/media/materials2.png": "/john-resume/static/media/materials2.6469acd58ac80c26173f.png",
+    "static/media/materials1.png": "/john-resume/static/media/materials1.e6c66ee7903ee3b2fba2.png",
+    "static/media/photo.png": "/john-resume/static/media/photo.f9e0e52e588b812f45ec.png",
+    "static/media/vibrant.png": "/john-resume/static/media/vibrant.b77968151f7a91566b4d.png",
+    "static/media/materials3.png": "/john-resume/static/media/materials3.ce1d7a24556dd3c88de9.png",
+    "static/media/Rectangle.png": "/john-resume/static/media/Rectangle.7ff7178af2c25169813a.png",
+    "static/media/36days.png": "/john-resume/static/media/36days.e3eb315f2c069d6bc658.png",
+    "index.html": "/john-resume/index.html",
+    "static/media/arrow-back.svg": "/john-resume/static/media/arrow-back.9933390d8fe945a2bdb24e5c10b66aa2.svg",
+    "main.b19c7581.css.map": "/john-resume/static/css/main.b19c7581.css.map",
+    "main.9ba211be.js.map": "/john-resume/static/js/main.9ba211be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b19c7581.css",
+    "static/js/main.9ba211be.js"
+  ]
+}
